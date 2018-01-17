@@ -1,0 +1,64 @@
+/* Core Styles */
+
+body {
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bg-image {
+  background-image: url(images/rubber-ducky.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Navigation */
+
+nav {
+  padding-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 5px;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Area */
+
+#main-area {
+  margin-top: 90px;
+  background-color: #aaa;
+  padding: 1em 2em;
+  opacity: 0.9;
+  line-height: 1.3em;
+  
+}
+
+hr {
+  width: 65%;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+  #main-area {
+    background-color: blue;
+  }
+}
